@@ -1,0 +1,70 @@
+#main_head {
+	font-family: 'Inconsolata';
+	color: rgba(63, 63, 63);
+	text-align: left;
+	margin: 0;
+	padding: 25%;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.bg {
+	background-image: url("rodrigo-soares-240433-unsplash-white.jpg");
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nav_bar {
+	background-color: green;
+	overflow: hidden;
+}
+
+.nav_bar bar_elements {
+	float: left;
+	color: white;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.nav_bar bar_elements:hover {
+	background-color: #ddd;
+	color: green;
+}
+
+.nav_bar bar_elements.active {
+	background-color: rgb(63, 63, 63);
+	color: white;
+}
+
+#interests {
+	font-family: 'Inconsolata';
+	font-size: 24px;
+	background: rgb(37, 37, 37);
+	padding: 100px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.sub_heading {
+	font-size: 18px;
+	text-align: left;
+	padding: 50px;
+}
+.para {
+	width: 50%;
+	height: auto;
+	font-size: 14px;
+	text-align: center;
+}
